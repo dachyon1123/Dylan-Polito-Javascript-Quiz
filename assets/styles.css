@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(59, 59, 59);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  width: 700px;
+
+  background-color: rgba(255, 255, 255, 0.71);
+  padding: 30px;
+
+  border-radius: 20px;
+
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.start-quiz{
+  height: 50px;
+  width: 125px;
+
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.437);
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+.start-quiz:hover {
+  background-color: white;
+}
+
+.score {
+  margin: 0;
+}
+
+.timer {
+  margin: 0;
+}
+
+.score-timer {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+
+  width: 800px;
+  height: 100px;
+  border-radius: 20px;
+
+  background-color: rgba(255, 255, 255, 0.71);;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.question-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(255, 255, 255, 0.71);
+  width: 50%;
+  height: 50%;
+  padding: 60px;
+
+  text-align: center;
+  border-radius: 20px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.answers {
+  height: 75px;
+  width: 500px;
+
+  margin: 20px;
+  border-radius: 20px;
+  border: none;
+
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.answers:hover {
+  background-color: darkgrey;
+}
+
+.answers:disabled {
+  background-color: rgb(92, 92, 92);
+  color: rgba(0, 0, 0, 0.3);
+  border-color: rgba(118, 118, 118, 0.3);
+}
+
+.answer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.save-score {
+  position: absolute;
+  right: 20%;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  width: 200px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.71);
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.save-score:hover {
+  background-color: rgb(127, 126, 126);
+}
+
+
+.scores-form {
+  position: absolute;
+  bottom: 40%;
+}
+
+.score-submition {
+  height: 50px;
+  width: 300px;
+
+  border-radius: 20px;
+  padding: 5px;
+
+  font-size: 25px;
+}
+
+.end-game-div {
+  background-color: rgba(255, 255, 255, 0.71);
+  padding: 100px;
+  padding-bottom: 200px;
+
+  text-align: center;
+
+  border-radius: 20px;
+
+}
+
+
+.highscore-div {
+  height: 70%;
+  width: 45%;
+
+  background-color: rgba(255, 255, 255, 0.71);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  padding: 50px;
+}
+
+.new-score {
+  font-size: 40px;
+}
+
+
+.play-again {
+  position: absolute;
+  bottom: 15%;
+
+  height: 50px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.71);
+  border-radius: 20px;
+  border: none;
+
+  font-size: 20px;
+}
+
+.play-again:hover {
+  background-color: rgb(127, 126, 126);
+  cursor: pointer;
+}
